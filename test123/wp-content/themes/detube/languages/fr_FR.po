@@ -1,0 +1,2728 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deTube v1.3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-07-08 13:07:34+0000\n"
+"Last-Translator: annedemo <ademortain@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:22
+#@ dp
+msgid "404 Not Found"
+msgstr "404 Page inexistante"
+
+#: 404.php:27
+#, php-format
+#@ dp
+msgid "<strong>Sorry, but the page you are looking for can not be found.</strong><br />Perhaps you are here beacause the page no longer exists or never exists, or you love 404 page.<br />Please try searching can help or return to <a href=\"%1$s\">homepage</a>."
+msgstr "<p><strong>Désolé, mais la page que vous cherchez est introuvable</strong>, sans doute parce qu'elle a été déplacée ou qu'elle n'a jamais existé.</p>Vous pouvez essayer de lancer une nouvelle recherche ou retourner à la <a href=\"%1$s\">page d'accueil</ a>."
+
+#: admin/admin.php:51
+#@ dp
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: admin/admin.php:52
+#: admin/admin.php:56
+#@ dp
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: admin/admin.php:52
+#@ dp
+msgid "General"
+msgstr "Options Générales"
+
+#: admin/admin.php:57
+#@ dp
+msgid "Custom Labels Settings"
+msgstr "Personalisation des libellés"
+
+#: admin/admin.php:59
+#@ dp
+msgid "Design Settings"
+msgstr "Paramètres de présentation"
+
+#: admin/admin.php:60
+#@ dp
+msgid "Header Settings"
+msgstr "Paramètres de l'en-tête"
+
+#: admin/admin.php:61
+#@ dp
+msgid "Footer Settings"
+msgstr "Paramètres du pied de page"
+
+#: admin/admin.php:63
+#@ dp
+msgid "Archive Pages Settings"
+msgstr "Paramètres des pages d'archives"
+
+#: admin/admin.php:64
+#@ dp
+msgid "Category Featured Settings"
+msgstr "Paramètres des catégories mises en avant"
+
+#: admin/admin.php:65
+#@ dp
+msgid "Single Post Pages Settings"
+msgstr "Paramètres des articles individuels"
+
+#: admin/admin.php:66
+#@ dp
+msgid "Post Likes Settings"
+msgstr "Paramètres de reccomandation des articles"
+
+#: admin/admin.php:67
+#@ dp
+msgid "Hook Settings"
+msgstr "Paramètres d'insertion de code"
+
+#: admin/admin.php:77
+#@ dp
+msgid "These settings determine how to display content on archive pages."
+msgstr "Ces paramètres déterminent le mode d'affichage du contenu des pages d'archives."
+
+#: admin/admin.php:83
+#@ dp
+msgid "Loop Actions"
+msgstr "Options de tri"
+
+#: admin/admin.php:84
+#@ dp
+msgid "Check this to show \"Loop Actions\" bar"
+msgstr "Cocher cette case pour afficher la barre \"Options de tri\""
+
+#: admin/admin.php:98
+#@ dp
+msgid "Sort Order"
+msgstr "Ordre de tri"
+
+#: admin/admin.php:99
+#@ dp
+msgid "Check this to show ASC/DESC order"
+msgstr "Cocher cette case pour afficher par ordre ASC/DESC"
+
+#: admin/admin.php:134
+#@ dp
+msgid "These settings enable you to change the labels of WordPress built-in post type 'post', to 'Videos', or whatever you want to name it."
+msgstr "Ces paramètres vous permettent de personnaliser les libellés des articles standard  de WordPress."
+
+#: admin/admin.php:139
+#@ dp
+msgid "Custom Labels"
+msgstr "Libellés personalisés"
+
+#: admin/admin.php:140
+#@ dp
+msgid "check this to enable custom labels for post type \"post\"?"
+msgstr "Cocher cette case pour remplacer les libellés standard par des libellés personnalisés dans les articles standard?"
+
+#: admin/admin.php:146
+#@ dp
+msgid "name"
+msgstr "name"
+
+#: admin/admin.php:147
+#: admin/admin.php:213
+#@ dp
+msgid "Videos"
+msgstr "Vidéos"
+
+#: admin/admin.php:152
+#@ dp
+msgid "singular_name"
+msgstr "singular_name"
+
+#: admin/admin.php:153
+#: admin/admin.php:219
+#@ dp
+msgid "Video"
+msgstr "Vidéo"
+
+#: admin/admin.php:158
+#@ dp
+msgid "add_new"
+msgstr "add_new"
+
+#: admin/admin.php:159
+#@ dp
+msgid "Add New"
+msgstr "Ajouter"
+
+#: admin/admin.php:164
+#@ dp
+msgid "add_new_item"
+msgstr "add_new_item"
+
+#: admin/admin.php:165
+#@ dp
+msgid "Add New Video"
+msgstr "Ajouter une nouvelle vidéo"
+
+#: admin/admin.php:170
+#@ dp
+msgid "edit_item"
+msgstr "edit_item"
+
+#: admin/admin.php:171
+#@ dp
+msgid "Edit Video"
+msgstr "Modifier la vidéo"
+
+#: admin/admin.php:176
+#@ dp
+msgid "new_item"
+msgstr "new_item"
+
+#: admin/admin.php:177
+#@ dp
+msgid "New Video"
+msgstr "Nouvelle vidéo"
+
+#: admin/admin.php:182
+#@ dp
+msgid "all_items"
+msgstr "all_items"
+
+#: admin/admin.php:183
+#@ dp
+msgid "All Videos"
+msgstr "Toutes le vidéos"
+
+#: admin/admin.php:188
+#@ dp
+msgid "view_item"
+msgstr "view_item"
+
+#: admin/admin.php:189
+#@ dp
+msgid "View Video"
+msgstr "Voir la vidéo"
+
+#: admin/admin.php:194
+#@ dp
+msgid "search_items"
+msgstr "search_items"
+
+#: admin/admin.php:195
+#@ dp
+msgid "Search Videos"
+msgstr "Rechercher des vidéos"
+
+#: admin/admin.php:200
+#@ dp
+msgid "not_found"
+msgstr "not_found"
+
+#: admin/admin.php:201
+#@ dp
+msgid "No videos found."
+msgstr "Aucune vidéo n'a été trouvée."
+
+#: admin/admin.php:206
+#@ dp
+msgid "not_found_in_trash"
+msgstr "not_found_in_trash"
+
+#: admin/admin.php:207
+#@ dp
+msgid "No videos found in Trash."
+msgstr "Aucune vidéo n'a été trouvée dans la corbeille."
+
+#: admin/admin.php:212
+#@ dp
+msgid "menu_name"
+msgstr "menu_name"
+
+#: admin/admin.php:218
+#@ dp
+msgid "name_admin_bar"
+msgstr "name_admin_bar"
+
+#: admin/admin.php:230
+#@ dp
+msgid "Logo Type"
+msgstr "Type de logo"
+
+#: admin/admin.php:235
+#@ dp
+msgid "Image Logo"
+msgstr "Image du Logo"
+
+#: admin/admin.php:236
+#@ dp
+msgid "Upload a logo for your theme, or specify the image url of your online logo."
+msgstr "Uploader un logo pour le thème, ou donner l'url d'un logo en ligne."
+
+#: admin/admin.php:242
+#@ dp
+msgid "Tagline"
+msgstr "Slogan"
+
+#: admin/admin.php:243
+#@ dp
+msgid "Show site tagline?"
+msgstr "Afficher le slogan du site?"
+
+#: admin/admin.php:248
+#@ dp
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/admin.php:249
+#@ dp
+msgid "Upload a 16px x 16px PNG/GIF image that will represent your website's favicon."
+msgstr "Télécharger une image PNG/GIF de 16px x 16px qui sera utilisée comme favicon du site."
+
+#: admin/admin.php:255
+#@ dp
+msgid "RSS URL"
+msgstr "URL RSS"
+
+#: admin/admin.php:256
+#, php-format
+#@ dp
+msgid "The default RSS url of your website is <code>%s</code>, if you want to use other feed url(e.g. feedburner), paste it to here."
+msgstr "La valeur par défaut de l'url du flux RSS du site est <code>%s</code>. Si vous voulez employer une autre url de flux (par exemple feedburner), collez-la ici."
+
+#: admin/admin.php:261
+#@ dp
+msgid "Login Logo"
+msgstr "Logo de Login"
+
+#: admin/admin.php:262
+#@ dp
+msgid "Upload a logo for your wp-login.php page."
+msgstr "Uploader un logo pour la page wp-login.php."
+
+#: admin/admin.php:267
+#: functions.php:50
+#@ dp
+msgid "Main Navigation"
+msgstr "Menu principal"
+
+#: admin/admin.php:268
+#: admin/admin.php:404
+#@ dp
+msgid "Check this to enable footer navigation in footer area."
+msgstr "Cocher cette case pour afficher la navigation dans le pied de page."
+
+#: admin/admin.php:269
+#, php-format
+#@ dp
+msgid "By default, the main navigation is a list of your categories, if your want to customize it, add a menu on <a href=\"%s\">Apperance->Menus</a> page and set this menu as \"Main Navigation\" in \"Theme Location\" box."
+msgstr "Par défaut, le menu principal contient la liste des catégories. Pour le personnaliser, ajouter un menu dans la page <a href=\"%s\">Apparence-> Menus</a> puis configurer ce menu comme \"Menu Principal \" dans la boîte \"Emplacements du Thème\" de la même page."
+
+#: admin/admin.php:275
+#@ dp
+msgid "Responsive"
+msgstr "Adaptabilité"
+
+#: admin/admin.php:276
+#@ dp
+msgid "Check this to enable responsive?"
+msgstr "Cocher cette case pour activer l'interface web adaptative?"
+
+#: admin/admin.php:282
+#@ dp
+msgid "AddThis"
+msgstr "AddThis"
+
+#: admin/admin.php:283
+#@ dp
+msgid "Check this to enable AddThis share buttons."
+msgstr "Cocher cette case pour afficher le bouton de partage AddThis"
+
+#: admin/admin.php:288
+#@ dp
+msgid "AddThis PubID"
+msgstr "AddThis PubID"
+
+#: admin/admin.php:289
+#@ dp
+msgid "Your AddThis Publisher Profile ID (e.g. xa-502a3a59790da5bd). This required if you want AddThis to track analytics for your site."
+msgstr "Votre Profil ID d'Editeur AddThis (par exemple xa-502a3a59790da5bd). Nécessaire pour qu'AddThis puisse suivre les statistiques du site."
+
+#: admin/admin.php:295
+#@ dp
+msgid "Facebook Open Graph Tags"
+msgstr "Balises Open Graph Facebook"
+
+#: admin/admin.php:296
+#@ dp
+msgid "Check this to insert Facebook Open Graph Tags into head."
+msgstr "Cocher cette case pour insérer les balises Open Graph Facebook dans les pages du site."
+
+#: admin/admin.php:305
+#: widgets/widget-related-posts.php:108
+#@ dp
+msgid "Related Posts"
+msgstr "Articles en rapport"
+
+#: admin/admin.php:306
+#@ dp
+msgid "How many related posts should be displayed on the single post page? If you don't want to show it leave this field blank or set to 0."
+msgstr "Nombre d'articles en rapport à afficher sur dans un article individuel? Laisser ce champ vide ou à 0 pour ne rien afficher."
+
+#: admin/admin.php:313
+#@ dp
+msgid "Related Posts View"
+msgstr "Affichage des articles en rapport"
+
+#: admin/admin.php:324
+#@ dp
+msgid "Single Video Layout"
+msgstr "Mise en page des vidéos individuelles"
+
+#: admin/admin.php:325
+#@ dp
+msgid "Specify a default layout for all of the video posts, and you can override this setting for individual posts in \"Video Settings\" panel on edit post page."
+msgstr "Spécifier une une mise en page par défaut pour tous les articles vidéo. Ce paramètre pourra être modifié ensuite dans chaque article via l'onglet  \"Paramètres vidéo\" de la page d'édition."
+
+#: admin/admin.php:327
+#: admin/admin.php:873
+#: admin/admin.php:1274
+#: admin/admin.php:1417
+#: admin/admin.php:1427
+#@ dp
+msgid "Standard"
+msgstr "Standard"
+
+#: admin/admin.php:328
+#: admin/admin.php:590
+#: admin/admin.php:874
+#: admin/admin.php:1417
+#: admin/admin.php:1428
+#@ dp
+msgid "Full Width"
+msgstr "Pleine largeur"
+
+#: admin/admin.php:336
+#: admin/admin.php:940
+#@ dp
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: admin/admin.php:337
+#@ dp
+msgid "Check this to autoplay video when viewing a single video post?"
+msgstr "Cocher cette case pour activer la lecture automatique lors de l'ouverture d'un article vidéo individuel?"
+
+#: admin/admin.php:344
+#@ dp
+msgid "\"More/Less\" Toggle"
+msgstr "Bascule \"Plus/Moins\""
+
+#: admin/admin.php:345
+#@ dp
+msgid "Enter a number as less height for video detatils area, eg. 100, if you don't need this function, leave this field blank or set to 0. Note: this function is only works on single video post pages."
+msgstr "Saisir la hauteur minimale de la zone de détails de la vidéo, par exemple. 100. Laisser ce champ vide ou à 0 si cette fonction n'est pas nécessaire. Remarque: cette fonction ne fonctionne que sur les pages vidéo individuelles."
+
+#: admin/admin.php:352
+#@ dp
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#: admin/admin.php:353
+#@ dp
+msgid "Check this to show thumbnail on single posts."
+msgstr "Cocher cette case pour afficher une vignette sur les articles individuels."
+
+#: admin/admin.php:365
+#@ dp
+msgid "Login Required"
+msgstr "Connexion requise"
+
+#: admin/admin.php:366
+#@ dp
+msgid "Users must be registered and logged in to like post "
+msgstr "Les utilisateurs doivent être enregistrés et connectés avant recommander un article "
+
+#: admin/admin.php:371
+#@ dp
+msgid "Likes Page"
+msgstr "Page de favoris"
+
+#: admin/admin.php:372
+#@ dp
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Choisir &mdash;"
+
+#: admin/admin.php:374
+#, php-format
+#@ dp
+msgid ""
+"<p>Select a page as user's likes page, if the page doesn't exist:<br />\n"
+"\t\t\t\t\t1. <a href=\"%s\">Adding a new page</a><br />\n"
+"\t\t\t\t\t2. Give this page a title like \"My Likes\".<br />\n"
+"\t\t\t\t\t3. Set page template as \"Likes\".<br />\n"
+"\t\t\t\t\t<br />\n"
+"\t\t\t\t\tThe \"Likes Page\" is a page for display user/visitor's liked posts.<br />\n"
+"\t\t\t\t\t<strong>* Logged in:</strong> If the user is logged in, the page will display the user's liked posts based on the user's ID.<br />\n"
+"\t\t\t\t\t<strong>* Not Logged in:</strong> If the visitor is not logged in, the page will display the visitor's liked posts based on the visitor's IP.<br />\n"
+"\t\t\t\t\t<strong>* Login Required + Not Logged in:</strong> If \"Login Required\" and the user is not logged in, the page will display a message to remind users to register and login.<br />"
+msgstr "<p>Sélectionner une page comme page de favoris des utilisateurs. Si cette page n'existe pas:<br />1. <a href=\"%s\">Ajouter une nouvelle page</a><br />2. Donner un nom à cette page, par exemple \"Mes favoris\".<br />3. Pour cette page, utiliser le modèle de page \"Likes\".<br /><br />La \"page de favoris\" sert  à afficher les articles recommandés par un utilisateur/visiteur.<br /><strong>* Connecté:</strong> Si l'utilisateur est connecté, la page affichera les articles recommandés par l'utilisateur en fonction de son ID d'utilisateur.<br /><strong>* Non connecté:</strong> Si le visiteur n'est pas connecté, la page affichera les articles recommandés par le visiteur en fonction de son adresse IP.<br /><strong>* Connexion requise + Non connecté:</strong> Si la connexion est requise et et que l'utilisateur n'est pas connecté, la page affichera un message demandant aux utilisateurs de s'enregistrer et se connecter.<br />"
+
+#: admin/admin.php:392
+#@ dp
+msgid "Header Search Box"
+msgstr "Boîte de Recherche de l'en-tête"
+
+#: admin/admin.php:393
+#@ dp
+msgid "Check this to enable search box in header area."
+msgstr "Cocher cette case pour activer la boîte de recherche dans la zone d'en-tête."
+
+#: admin/admin.php:403
+#: functions.php:51
+#@ dp
+msgid "Footer Navigation"
+msgstr "Menu du pied de page"
+
+#: admin/admin.php:405
+#, php-format
+#@ dp
+msgid "By default, the footer navigation is a list of your pages, if your want to customize it, add a menu on <a href=\"%s\">Apperance->Menus</a> page and set this menu as \"Footer Navigation\" in \"Theme Location\" box."
+msgstr "Par défaut, le menu de pied de page contient la liste des pages. Pour le personnaliser, ajouter un menu dans la page <a href=\"%s\">Apparence-> Menus</a> et configurer ce menu comme \"Menu de pied de page\" dans la boîte \"Emplacements du Thème\" de la même page."
+
+#: admin/admin.php:411
+#@ dp
+msgid "Footbar(Footer Widget Area)"
+msgstr "Barre de pied de page (Zone de Widget du pied de page)"
+
+#: admin/admin.php:412
+#, php-format
+#@ dp
+msgid "Check this to enable footbar. Add widgets on <a href=\"%s\">Appearance->Widgets</a> page"
+msgstr "Cocher cette case pour activer la barre de pied de page. Ajouter des widgets sur la page <a href=\"%s\">Apparence->Widgets</a>"
+
+#: admin/admin.php:417
+#@ dp
+msgid "Text for Copyright"
+msgstr "Texte du Copyright"
+
+#: admin/admin.php:418
+#, php-format
+#@ dp
+msgid "Copyright %1$s &copy; %2$s All rights reserved."
+msgstr "Copyright %1$s &copy; %2$s Tous droits réservés."
+
+#: admin/admin.php:419
+#, php-format
+#@ dp
+msgid "<code>%1&#36;s</code> is current year, <code>%2&#36;s</code> is a link with your site name."
+msgstr "<code>%1&#36;s</code> est l'année en cours, <code>%2&#36;s</code> est un lien avec le nom du site."
+
+#: admin/admin.php:424
+#@ dp
+msgid "Text for Credits"
+msgstr "Texte de remerciements"
+
+#: admin/admin.php:425
+#@ dp
+msgid "Powered by <a target=\"_blank\" href=\"http://wordpress.org/\">WordPress</a> & <a target=\"_blank\" href=\"http://dedepress.com/themes/detube/\" title=\"Premium Video Theme\">deTube</a> by <a target=\"_blank\" href=\"http://dedepress.com\" title=\"Premium WordPress Themes\">DeDePress</a>."
+msgstr "Propulsé par <a target=\"_blank\" href=\"http://wordpress.org/\">WordPress</a> & <a target=\"_blank\" href=\"http://dedepress.com/themes/detube/\" title=\"Premium Video Theme\">deTube</a> by <a target=\"_blank\" href=\"http://dedepress.com\" title=\"Premium WordPress Themes\">DeDePress</a>."
+
+#: admin/admin.php:426
+#@ dp
+msgid "Whether WordPress or DeDePress, No attribution or backlinks are strictly required, but play the game, it's always nice to be credited for your site. Any form of spreading the word is always appreciated!"
+msgstr "Bien que ni WordPress, ni DeDePress ne requièrent expressément une attribution ou un lien de retour, jouez le jeu: il est toujours agréable d'être reconnu pour ce qui est accompli sur votre site. Toute façon de passer le mot sera appréciée!"
+
+#: admin/admin.php:432
+#@ dp
+msgid "Social Navigation"
+msgstr "Navigation sociale"
+
+#: admin/admin.php:433
+#@ dp
+msgid "Check this to enable social navigation in footer area"
+msgstr "Cocher cette case pour activer la navigation sociale dans la zone de pied de page"
+
+#: admin/admin.php:438
+#@ dp
+msgid "Navigation Description"
+msgstr "Description de la navigation"
+
+#: admin/admin.php:439
+#@ dp
+msgid "Follow us elsewhere"
+msgstr "Suivez-nous ailleurs"
+
+#: admin/admin.php:443
+#@ dp
+msgid "Twitter Link"
+msgstr "Lien Twitter"
+
+#: admin/admin.php:453
+#: admin/admin.php:478
+#: admin/admin.php:503
+#: admin/admin.php:528
+#: admin/admin.php:553
+#@ dp
+msgid "URL:"
+msgstr "URL:"
+
+#: admin/admin.php:460
+#: admin/admin.php:485
+#: admin/admin.php:510
+#: admin/admin.php:535
+#: admin/admin.php:560
+#@ dp
+msgid "Title Attribute:"
+msgstr "Attribut Title:"
+
+#: admin/admin.php:461
+#@ dp
+msgid "Follow us on Twitter"
+msgstr "Suivez-nous sur Twitter"
+
+#: admin/admin.php:468
+#@ dp
+msgid "Facebook Link"
+msgstr "Lien Facebook"
+
+#: admin/admin.php:486
+#@ dp
+msgid "Become a fan on Facebook"
+msgstr "Devenez un de nos fans sur Facebook"
+
+#: admin/admin.php:493
+#@ dp
+msgid "Google Plus Link"
+msgstr "Lien Google Plus"
+
+#: admin/admin.php:511
+#@ dp
+msgid "Follow us on Google Plus"
+msgstr "Suivez-nous sur Google Plus"
+
+#: admin/admin.php:518
+#@ dp
+msgid "RSS Link"
+msgstr "Lien RSS"
+
+#: admin/admin.php:536
+#@ dp
+msgid "Subscriber to RSS Feed"
+msgstr "S'abonner au flux RSS"
+
+#: admin/admin.php:543
+#@ dp
+msgid "Newsletter Link"
+msgstr "Lien Newsletter"
+
+#: admin/admin.php:561
+#@ dp
+msgid "Premium WordPress Themes"
+msgstr " Themes WordPress Premium"
+
+#: admin/admin.php:573
+#@ dp
+msgid "Head Code"
+msgstr "Code d'en-tête HTML"
+
+#: admin/admin.php:574
+#@ dp
+msgid "Paste any code here. It will be inserted before the <code>&lt;/head&gt;</code> tag of your theme."
+msgstr "Coller du code ici. Il sera inséré avant la balise <code>&lt;/head&gt;</code> du thème."
+
+#: admin/admin.php:579
+#@ dp
+msgid "Footer Code"
+msgstr "Code HTML de pied de page"
+
+#: admin/admin.php:580
+#@ dp
+msgid "Paste any code here, e.g. your Google Analytics tracking code. It will be inserted before the <code>&lt;/body&gt;</code> tag of your theme."
+msgstr "Coller du code ici, par exemple du code Google Analytics. Il sera inséré avant la balise <code>&lt;/body&gt;</code> du thème."
+
+#: admin/admin.php:590
+#@ dp
+msgid "Boxed"
+msgstr "Encadré"
+
+#: admin/admin.php:591
+#@ dp
+msgid "Wrap Layout"
+msgstr "Mise en page finale"
+
+#: admin/admin.php:597
+#@ dp
+msgid "Custom Background Color"
+msgstr "Couleur de fond personalisée"
+
+#: admin/admin.php:598
+#@ dp
+msgid "Default color value is #EEEEEE"
+msgstr "La couleur par défaut est #EEEEEE"
+
+#: admin/admin.php:604
+#@ dp
+msgid "Background Pattern"
+msgstr "Image de fond"
+
+#: admin/admin.php:605
+#@ dp
+msgid "Check this to enable background pattern."
+msgstr "Cocher cette case pour utiliser une image de fond"
+
+#: admin/admin.php:612
+#@ dp
+msgid "Preset Background Pattern"
+msgstr "Image de fond intégrée"
+
+#: admin/admin.php:619
+#@ dp
+msgid "Custom Background Pattern"
+msgstr "Image de fond personalisée"
+
+#: admin/admin.php:620
+#@ dp
+msgid "This option will override \"Preset Background Pattern\" in the above."
+msgstr "Cette option écrasera l'\"Image de fond intégrée\" choisie ci-dessus."
+
+#: admin/admin.php:627
+#@ dp
+msgid "Background Repeat"
+msgstr "Mode de répétition de l'image de fond"
+
+#: admin/admin.php:634
+#@ dp
+msgid "Background Attachment"
+msgstr "Mode de fixation de l'image de fond"
+
+#: admin/admin.php:640
+#@ dp
+msgid "Full Page Background Image"
+msgstr "Image de fond en pleine page"
+
+#: admin/admin.php:641
+#@ dp
+msgid "Check this to enable full page background image(not working below IE9)."
+msgstr "Cocher cette case pour activer l'image de fond en pleine page (ne fonctionne pas avant IE9)."
+
+#: admin/admin.php:658
+#@ dp
+msgid "Default"
+msgstr "Par défaut"
+
+#: admin/admin.php:713
+#@ dp
+msgid "Home Settings"
+msgstr "Paramètres de la page d'Accueil"
+
+#: admin/admin.php:713
+#: header.php:156
+#@ dp
+msgid "Home"
+msgstr "Accueil"
+
+#: admin/admin.php:717
+#@ dp
+msgid "Home Sections Settings"
+msgstr "Paramètres des sections de la page d'Accueil"
+
+#: admin/admin.php:718
+#@ dp
+msgid "Home Featured Settings"
+msgstr "Paramètres de la mise en avant de la page d'accueil"
+
+#: admin/admin.php:724
+#@ dp
+msgid "Newest Videos"
+msgstr "Vidéos les plus récentes"
+
+#: admin/admin.php:728
+#: page-template-archives.php:53
+#@ dp
+msgid "Most Viewed"
+msgstr "Les plus vues"
+
+#: admin/admin.php:733
+#: page-template-archives.php:42
+#@ dp
+msgid "Most Liked"
+msgstr "Les plus recommandés"
+
+#: admin/admin.php:738
+#: page-template-archives.php:64
+#@ dp
+msgid "Most Commented"
+msgstr "Les plus commentées"
+
+#: admin/admin.php:785
+#@ dp
+msgid "Sort Types"
+msgstr "Types de tri"
+
+#: admin/admin.php:795
+#: admin/admin.php:822
+#@ dp
+msgid "Check a type to enable it, or drag the types to reorder."
+msgstr "Choisir un tri pour l'activer, ou glisser les types pour les réordonner"
+
+#: admin/admin.php:812
+#@ dp
+msgid "View Types"
+msgstr "Types de vues"
+
+#: admin/admin.php:896
+#@ dp
+msgid "These settings enable you to show featured posts on home pages. If you don't want to show it, set 'Number of Posts' to 0."
+msgstr "Ces paramètres permettent d'afficher des articles mis en avant sur la page d'Accueil. Saisir 0 dans 'Nombre d'articles' pour ne rien afficher."
+
+#: admin/admin.php:900
+#@ dp
+msgid "Layout"
+msgstr "Mise en page"
+
+#: admin/admin.php:906
+#: admin/admin.php:1118
+#@ dp
+msgid "Post Type"
+msgstr "Types d'articles"
+
+#: admin/admin.php:913
+#@ dp
+msgid "Taxonomy Query"
+msgstr "Recherche taxonomique"
+
+#: admin/admin.php:919
+#: admin/admin.php:1133
+#@ dp
+msgid "Sort"
+msgstr "Tri"
+
+#: admin/admin.php:921
+#: admin/admin.php:1135
+#@ dp
+msgid "Order by:"
+msgstr "Triés par:"
+
+#: admin/admin.php:922
+#: admin/admin.php:1136
+#: widgets/widget-posts.php:175
+#@ dp
+msgid "Order:"
+msgstr "Tri:"
+
+#: admin/admin.php:923
+#: admin/admin.php:1137
+#: widgets/widget-posts.php:181
+#@ dp
+msgid "Views Timing:"
+msgstr "Arrangement des vues:"
+
+#: admin/admin.php:927
+#@ dp
+msgid "Number of Posts"
+msgstr "Nombre d'articles:"
+
+#: admin/admin.php:933
+#: admin/admin.php:1147
+#: admin/admin.php:1329
+#@ dp
+msgid "Includes"
+msgstr "Articles inclus"
+
+#: admin/admin.php:936
+#: admin/admin.php:1150
+#@ dp
+msgid "If you want to display specific posts, enter post ids to here, separate ids with commas, (e.g. 1,2,3,4). <br />if this field is not empty, category will be ignored. <br/>If you want to display posts sort by the order of your enter IDs, set \"Sort\" field as <strong>Includes</strong>."
+msgstr "Si vous voulez afficher des articles particuliers, saisissez ici leur identifiants, séparés par des virgules (par exemple 1,2,3,4). <br />Si ce champ n'est pas vide, la catégorie sera ignorée. <br/>Si vous voulez afficher des articles triés dans l'ordre de saisie des identifiants, mettre le champ \"Tri\" à <strong>Articles inclus</strong>."
+
+#: admin/admin.php:942
+#@ dp
+msgid "Check this to autoplay video in home featured when viewing the home page."
+msgstr "Cocher cette case pour lancer automatiquement la lecture des vidéos mises en avant dans la page d'accueil."
+
+#: admin/admin.php:946
+#@ dp
+msgid "Ajaxload"
+msgstr "Chargement Ajax"
+
+#: admin/admin.php:948
+#@ dp
+msgid "Check this to enable ajax loading with Standard Layout. <strong>Note</strong>: The full width layout will always ajax loading."
+msgstr "Cocher cette case pour activer le chargement Ajax dans la mise en page standard. <strong>Note</strong>: la mise en page plein écran utilise toujours le chargement Ajax."
+
+#: admin/admin.php:952
+#@ dp
+msgid "Autoscroll"
+msgstr "Défilement automatique"
+
+#: admin/admin.php:955
+#@ dp
+msgid "Set autoscrolling interval in milliseconds to make carousel to automatic play (eg. 2500), set it to 0 or leave it blank to disable it . <strong>Note</strong>: The autoscroll only work for \"Standard\" layout, and it will disable automatic video play and ajax video loading."
+msgstr "Donner un intervalle de défilement automatique en millisecondes pour configurer le carrousel en lecture automatique (par exemple 2500). Le laisser vide ou à 0 ou pour désactiver cette fonction. <strong>Note</strong>: le défilement automatique ne fonctionne que pour la mise en page \"Standard\", et désactive le lancement automatique de la lecture vidéo et le chargement vidéo via Ajax."
+
+#: admin/admin.php:991
+#@ dp
+msgid "These settings enable you to show posts of current category with carousel effect on category pages. If you don't want to show it, set 'Number of Posts' to 0."
+msgstr "Ces paramètres permettent d'afficher les articles des pages de catégories avec un effet de carrousel. Si vous ne voulez par de cette fonction, mettez le champ ' Nombre d'article' à 0."
+
+#: admin/admin.php:995
+#@ dp
+msgid "Query"
+msgstr "Recherche"
+
+#: admin/admin.php:997
+#: loop-actions.php:121
+#@ dp
+msgid "Sort:"
+msgstr "Tri:"
+
+#: admin/admin.php:998
+#: admin/admin.php:1141
+#@ dp
+msgid "Number of Posts:"
+msgstr "Nombre d'articles:"
+
+#: admin/admin.php:1015
+#@ dp
+msgid "To adding a section, click \"<strong>Add New Section</strong>\" button. <br />Drag sections up or down to change their order of appearance on home page.<br/>Don't forget to click \"<strong>Save Changes</strong>\" button."
+msgstr "Pour ajouter une section, cliquer sur le bouton \"<strong>Ajouter une Nouvelle Section</strong>\". <br />Glisser les sections vers le haut ou vers le bas pour changer leur ordre d'apparition sur la page d'accueil..<br/>Ne pas oublier de cliquer sur le bouton \"<strong>Enregistrer les modifications</strong>\"."
+
+#: admin/admin.php:1017
+#: admin/admin.php:1032
+#@ dp
+msgid "Add New Section"
+msgstr "Ajouter une Nouvelle Section"
+
+#: admin/admin.php:1100
+#@ dp
+msgid "Section Box"
+msgstr "Section"
+
+#: admin/admin.php:1127
+#@ dp
+msgid "Taxomoy Query"
+msgstr "Recherche taxonomique"
+
+#: admin/admin.php:1154
+#@ dp
+msgid "View"
+msgstr "Vue"
+
+#: admin/admin.php:1158
+#: functions.php:1618
+#@ dp
+msgid "Title"
+msgstr "Titre"
+
+#: admin/admin.php:1161
+#@ dp
+msgid "If you specify a category, the default title is the category name, and you can still fill in this field to override it."
+msgstr "Si vous précisez une catégorie, le titre par défaut est le nom de cette catégorie, mais vous pouvez remplir ce champ pour lui donner un autre titre."
+
+#: admin/admin.php:1165
+#@ dp
+msgid "Link"
+msgstr "Lien"
+
+#: admin/admin.php:1168
+#@ dp
+msgid "If you specified a category, the default link is the category link, and you can still fill in this field to override it."
+msgstr "Si vous précisez une catégorie, le lien par défaut est le lien de cette catégorie, mais vous pouvez remplir ce champ pour lui donner un autre lien."
+
+#: admin/admin.php:1172
+#@ dp
+msgid "Before"
+msgstr "Avant"
+
+#: admin/admin.php:1175
+#@ dp
+msgid "Maybe you want to insert something before this section, such as your ad code. (support html and shortcode)."
+msgstr "Vous pouvez insérer quelque chose avant cette section, comme votre code publicitaire, par exemple. (supporte HTML et les shortcodes)."
+
+#: admin/admin.php:1179
+#@ dp
+msgid "After"
+msgstr "Après"
+
+#: admin/admin.php:1182
+#@ dp
+msgid "Maybe you want to insert something after this section, such as your ad code. (support html and shortcode)."
+msgstr "Vous pouvez insérer quelque chose après cette section, comme votre code publicitaire, par exemple. (supporte HTML et les shortcodes)."
+
+#: admin/admin.php:1189
+#@ dp
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/admin.php:1221
+#: admin/admin.php:1267
+#: functions.php:1598
+#: widgets/widget-comments.php:90
+#: widgets/widget-posts.php:141
+#: widgets/widget-related-posts.php:133
+#@ dp
+msgid "All"
+msgstr "Tous"
+
+#: admin/admin.php:1385
+#: loop-actions.php:109
+#@ dp
+msgid "Sort Descending"
+msgstr "Trier par ordre descendant"
+
+#: admin/admin.php:1386
+#: loop-actions.php:108
+#@ dp
+msgid "Sort Ascending"
+msgstr "Trier par ordre ascendant"
+
+#: admin/admin.php:1409
+#@ dp
+msgid "Video Settings"
+msgstr "Paramètres vidéo"
+
+#: admin/admin.php:1423
+#@ dp
+msgid "Video Layout"
+msgstr "Mise en page vidéo"
+
+#: admin/admin.php:1424
+#, php-format
+#@ dp
+msgid "The default single video layout is <b>\"%s\"</b>, select a layout if you want to use different layout to override it."
+msgstr "La mise en page par défaut des vidéos individuelles est <b>\"%s\"</b>, vous pouvez choisir ici une autre mise en page."
+
+#: admin/admin.php:1438
+#@ dp
+msgid "Please choose one of the following ways to embed the video into your post, the video is determined in the order: <b>Video Code > Video URL > Video File.</b>"
+msgstr "Merci de choisi un mode d'intégration de la vidéo dans l'article, parmi les suivants, sachant que la vidéo est définie, dans l'ordre, par: <b>Code Vidéo > URL Vidéo > Fichier Vidéo.</b>"
+
+#: admin/admin.php:1447
+#@ dp
+msgid "Video File"
+msgstr "Fichier vidéo"
+
+#: admin/admin.php:1448
+#@ dp
+msgid ""
+"Paste your video file url to here. <b>Supported Video Formats:</b> mp4, m4v, webmv, webm, ogv and flv.<br /><br/>\n"
+"\t\t\t\t<b>About Cross-platform and Cross-browser Support</b><br/>\n"
+"\t\t\t\tIf you want your video works in all platforms and browsers(HTML5 and Flash), you should provide various video formats for same video, if the video files are ready, enter one url per line. For Example: <br />\n"
+"\t\t\t\t<code>http://yousite.com/sample-video.m4v</code><br />\n"
+"\t\t\t\t<code>http://yousite.com/sample-video.ogv</code><br />\n"
+"\t\t\t\t<b>Recommended Format Solution</b>: webmv + m4v + ogv.\n"
+"\t\t\t\t"
+msgstr "Coller ici l'url de votre fichier vidéo. <b>Formats vidéo supportés:</b> mp4, m4v, webmv, webm, ogv et flv.<br /><br/><b>Concernant le support multi-plateformes et multi-navigateurs</b><br/>Si vous voulez que votre vidéo fonctionne sur toutes les plateformes et dans tous les navigateurs (HTML5 et Flash), fournissez plusieurs formats vidéos pour chaque vidéo et saisissez  ci-dessus une ligne par fichier vidéo disponible: <br /><code>http://yousite.com/sample-video.m4v</code><br /><code>http://yousite.com/sample-video.ogv</code><br /><b>Solution recommandée</b>: webmv + m4v + ogv."
+
+#: admin/admin.php:1459
+#@ dp
+msgid "Video Poster"
+msgstr "Affiche de la vidéo"
+
+#: admin/admin.php:1460
+#@ dp
+msgid "The preview image for video file, recommended size is 960px*540px."
+msgstr "Image de prévisualisation du fichier vidéo, de taille recommandée de 960px*540px."
+
+#: admin/admin.php:1469
+#@ dp
+msgid "Video URL"
+msgstr "URL de la vidéo"
+
+#: admin/admin.php:1470
+#@ dp
+msgid ""
+"Paste the url from popular video sites like YouTube or Vimeo. For example: <br/>\n"
+"\t\t\t\t<code>http://www.youtube.com/watch?v=nTDNLUzjkpg</code><br/>\n"
+"\t\t\t\tor<br/>\n"
+"\t\t\t\t<code>http://vimeo.com/23079092</code><br/><br/>\n"
+"\t\t\t\tSee <a href=\"http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\" target=\"_blank\">Supported Video Sites</a>."
+msgstr "Coller ici une url en provenance d'un site vidéo populaire comme YouTube ou Vimeo. Par exemple: <br/><code>http://www.youtube.com/watch?v=nTDNLUzjkpg</code><br/>or<br/><code>http://vimeo.com/23079092</code><br/><br/>Voir <a href=\"http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\" target=\"_blank\">Supported Video Sites</a>."
+
+#: admin/admin.php:1483
+#@ dp
+msgid "Video Code"
+msgstr "Code vidéo"
+
+#: admin/admin.php:1484
+#@ dp
+msgid "Paste the raw video code to here, such as <code>&lt;object&gt;</code>, <code>&lt;embed&gt;</code> or <code>&lt;iframe&gt;</code> code."
+msgstr "Coller ici le code vidéo brut, comme un code <code>&lt;object&gt;</code>, <code>&lt;embed&gt;</code> ou <code>&lt;iframe&gt;</code>."
+
+#: admin/forms.php:448
+#@ dp
+msgid "Global Settings"
+msgstr "Paramètres globaux"
+
+#: admin/forms.php:454
+#@ dp
+msgid "Front Page"
+msgstr "Première page"
+
+#: admin/forms.php:460
+#@ dp
+msgid "Blog Home"
+msgstr "Accueil du blog"
+
+#: admin/forms.php:468
+#, php-format
+#@ dp
+msgid "Single %s"
+msgstr "%s individuel"
+
+#: admin/forms.php:478
+#, php-format
+#@ dp
+msgid "Post Type Archive: %s"
+msgstr "Archive par type d'article: %s"
+
+#: admin/forms.php:488
+#, php-format
+#@ dp
+msgid "Taxonomy Archive: %s"
+msgstr "Archive par taxonomie: %s"
+
+#: admin/forms.php:496
+#@ dp
+msgid "Author Archive"
+msgstr "Archive par auteur"
+
+#: admin/forms.php:502
+#@ dp
+msgid "Date Archive"
+msgstr "Archive par date"
+
+#: admin/forms.php:508
+#@ dp
+msgid "Search Result Page"
+msgstr "Résultat de la recherche"
+
+#: admin/forms.php:514
+#@ dp
+msgid "404 Page"
+msgstr "Page 404"
+
+#: admin/panel.php:120
+#@ dp
+msgid "Plugin Info"
+msgstr "Info du Plugin"
+
+#: admin/panel.php:123
+#@ dp
+msgid "Theme Info"
+msgstr "Info du Thème"
+
+#: admin/panel.php:126
+#@ dp
+msgid "Like This?"
+msgstr "Recommander?"
+
+#: admin/panel.php:129
+#@ dp
+msgid "Need Support?"
+msgstr "Besoin de support?"
+
+#: admin/panel.php:132
+#@ dp
+msgid "Quick Preview"
+msgstr "Aperçu rapide"
+
+#: admin/panel.php:144
+#: admin/panel.php:156
+#@ dp
+msgid "Name:"
+msgstr "Nom:"
+
+#: admin/panel.php:145
+#: admin/panel.php:157
+#@ dp
+msgid "Version:"
+msgstr "Version:"
+
+#: admin/panel.php:146
+#: admin/panel.php:158
+#@ dp
+msgid "Author:"
+msgstr "Auteur:"
+
+#: admin/panel.php:147
+#: admin/panel.php:159
+#@ dp
+msgid "Description:"
+msgstr "Description:"
+
+#: admin/panel.php:163
+#@ dp
+msgid "We spend a lot of effort on Free WordPress development. Any help would be highly appreciated. Thanks!"
+msgstr "Nous avons dépensé beaucoup d'efforts sur le développement gratuit WordPress. Toute aide serait très appréciée. Merci!"
+
+#: admin/panel.php:168
+#@ dp
+msgid "Link to it so others can find out about it"
+msgstr "Mettre un lien pour que d'autres puissent en avoir connaissance"
+
+#: admin/panel.php:171
+#@ dp
+msgid "Give it a good rating on WordPress.org"
+msgstr "Donner une bonne note sur WordPress.org"
+
+#: admin/panel.php:174
+#@ dp
+msgid "Donate something to our team"
+msgstr "Faire un don à notre équipe"
+
+#: admin/panel.php:177
+#@ dp
+msgid "Help us translating it"
+msgstr "Aidez nous à le traduire"
+
+#: admin/panel.php:184
+#, php-format
+#@ dp
+msgid "If you have any problems or ideas for improvements or enhancements, please use the <a href=\"%s\">Our Support Forums</a>."
+msgstr "Si vous avez des problèmes, ou des idées d'améliorations ou d'évolutions, merci d'utiliser <a href=\"%s\">nos forums de Support</a>."
+
+#: admin/panel.php:321
+#@ dp
+msgid "Settings Saved."
+msgstr "Paramètres enregistrés."
+
+#: admin/panel.php:324
+#@ dp
+msgid "Settings Reset."
+msgstr "Réinitialisation des paramètres."
+
+#: admin/panel.php:345
+#: admin/panel.php:363
+#: widgets/widget-tweets.php:256
+#@ dp
+#@ dp-core
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/panel.php:352
+#: widgets/widget-tweets.php:263
+#@ dp
+#@ dp-core
+msgid "Donate"
+msgstr "Donner"
+
+#: admin/panel.php:353
+#: widgets/widget-tweets.php:264
+#@ dp
+#@ dp-core
+msgid "Support"
+msgstr "Support"
+
+#: admin/panel.php:399
+#@ dp
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: admin/panel.php:402
+#@ dp
+msgid "Reset Settings"
+msgstr "Réinitialiser les paramètres"
+
+#: admin/panel.php:405
+#@ dp
+msgid "Toggle Boxes"
+msgstr "Contracter/développer les sections"
+
+#: author-added.php:21
+#, php-format
+#@ dp
+msgid "%s / Added Videos"
+msgstr "%s / Vidéos ajoutées"
+
+#: author-liked.php:21
+#, php-format
+#@ dp
+msgid "%s / Liked Videos"
+msgstr "%s / Vidéos recommandées"
+
+#: author.php:44
+#, php-format
+#@ dp
+msgid "Joined %s ago"
+msgstr "Ajouté il y a %s"
+
+#: author.php:53
+#: functions.php:560
+#@ dp
+msgid "Twitter"
+msgstr "Twitter"
+
+#: author.php:55
+#: functions.php:561
+#@ dp
+msgid "Facebook"
+msgstr "Facebook"
+
+#: author.php:68
+#: page-template-archives.php:31
+#@ dp
+msgid "Recently Added"
+msgstr "Ajouté récemment"
+
+#: author.php:84
+#@ dp
+msgid "Liked Videos"
+msgstr "Videos recommandées"
+
+#: comments.php:28
+#@ dp
+msgid "No Comments"
+msgstr "Aucun commentaire"
+
+#: comments.php:28
+#@ dp
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: comments.php:28
+#@ dp
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: comments.php:44
+#@ dp
+msgid "Pings"
+msgstr "Pings"
+
+#: comments.php:53
+#@ dp
+msgid "Comments are closed."
+msgstr "Les commentaires ne sont pas autorisés."
+
+#: extensions/class-tgm-plugin-activation.php:178
+#@ dp
+msgid "Install Required Plugins"
+msgstr "Installer les extensions requises"
+
+#: extensions/class-tgm-plugin-activation.php:179
+#: functions/plugins-compat.php:193
+#@ dp
+msgid "Install Plugins"
+msgstr "Installer les extensions"
+
+#: extensions/class-tgm-plugin-activation.php:180
+#: functions/plugins-compat.php:194
+#, php-format
+#@ dp
+msgid "Installing Plugin: %s"
+msgstr "Installation de l'extension : %s"
+
+#: extensions/class-tgm-plugin-activation.php:181
+#@ dp
+msgid "Something went wrong."
+msgstr "Quelque chose s'est mal passé."
+
+#: extensions/class-tgm-plugin-activation.php:182
+#: functions/plugins-compat.php:196
+#, php-format
+#@ dp
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème nécessite l'extension suivante: %1$s."
+msgstr[1] "Ce thème nécessite les extensions suivantes: %1$s."
+
+#: extensions/class-tgm-plugin-activation.php:183
+#: functions/plugins-compat.php:197
+#, php-format
+#@ dp
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande d'utiliser l'extension suivante: %1$s."
+msgstr[1] "Ce thème recommande d'utiliser les extensions suivantes: %1$s."
+
+#: extensions/class-tgm-plugin-activation.php:184
+#: functions/plugins-compat.php:198
+#, php-format
+#@ dp
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Désolé, mais vous n'avez pas les permissions adéquates pour installer l'extension %s. Veuillez contacter l'administrateur de ce site pour obtenir de l'aide sur comment installer cette extension."
+msgstr[1] "Désolé, mais vous n'avez pas les permissions adéquates pour installer les extensions %s. Veuillez contacter l'administrateur de ce site pour obtenir de l'aide sur comment installer ces extensions."
+
+#: extensions/class-tgm-plugin-activation.php:185
+#: functions/plugins-compat.php:199
+#, php-format
+#@ dp
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "L'extension requise suivante est actuellement inactive: %1$s."
+msgstr[1] "Les extensions requises suivantes sont actuellement inactives: %1$s."
+
+#: extensions/class-tgm-plugin-activation.php:186
+#: functions/plugins-compat.php:200
+#, php-format
+#@ dp
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "L'extension recommandée suivante est actuellement inactive: %1$s."
+msgstr[1] "Les extensions recommandées suivantes sont actuellement inactives: %1$s."
+
+#: extensions/class-tgm-plugin-activation.php:187
+#: functions/plugins-compat.php:201
+#, php-format
+#@ dp
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Désolé, mais vous n'avez pas les permissions adéquates pour activer l'extension %s. Veuillez contacter l'administrateur de ce site pour obtenir de l'aide sur comment activer cette extension."
+msgstr[1] "Désolé, mais vous n'avez pas les permissions adéquates pour activer les extensions %s. Veuillez contacter l'administrateur de ce site pour obtenir de l'aide sur comment activer ces extensions."
+
+#: extensions/class-tgm-plugin-activation.php:188
+#: functions/plugins-compat.php:202
+#, php-format
+#@ dp
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "L'extension suivante nécessite d'être mise à jour à sa dernière version pour assurer un maximum de compatibilité avec ce thème: %1$s."
+msgstr[1] "Les extensions suivante nécessitent d'être mises à jour à leur dernière version pour assurer un maximum de compatibilité avec ce thème: %1$s."
+
+#: extensions/class-tgm-plugin-activation.php:189
+#: functions/plugins-compat.php:203
+#, php-format
+#@ dp
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Désolé, mais vous n'avez pas les permissions adéquates pour mettre à jour l'extension %s. Veuillez contacter l'administrateur de ce site pour obtenir de l'aide sur comment mettre à jour cette extension."
+msgstr[1] "Désolé, mais vous n'avez pas les permissions adéquates pour mettre à jour les extensions %s. Veuillez contacter l'administrateur de ce site pour obtenir de l'aide sur comment mettre à jour ces extensions."
+
+#: extensions/class-tgm-plugin-activation.php:190
+#: functions/plugins-compat.php:204
+#@ dp
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencer l'installation de l'extension"
+msgstr[1] "Commencer l'installation des extensions"
+
+#: extensions/class-tgm-plugin-activation.php:191
+#: functions/plugins-compat.php:205
+#@ dp
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activer l'extension instalée"
+msgstr[1] "Activer les extensions instalées"
+
+#: extensions/class-tgm-plugin-activation.php:192
+#: extensions/class-tgm-plugin-activation.php:523
+#: functions/plugins-compat.php:206
+#@ dp
+msgid "Return to Required Plugins Installer"
+msgstr "Retourner à l'installation des extensions requises"
+
+#: extensions/class-tgm-plugin-activation.php:193
+#: extensions/class-tgm-plugin-activation.php:1880
+#: functions/plugins-compat.php:207
+#@ dp
+msgid "Plugin activated successfully."
+msgstr "Extension activée avec succès."
+
+#: extensions/class-tgm-plugin-activation.php:194
+#, php-format
+#@ dp
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Toutes les extensions installées et activées avec succès. %1$s"
+
+#: extensions/class-tgm-plugin-activation.php:550
+#: extensions/class-tgm-plugin-activation.php:2092
+#@ dp
+msgid "Return to the Dashboard"
+msgstr "Retourner au tableau de bord"
+
+#: extensions/class-tgm-plugin-activation.php:578
+#, php-format
+#@ dp
+msgid "The following plugin was activated successfully: %s."
+msgstr "L'extension suivante a été activée avec succès: %s."
+
+#: extensions/class-tgm-plugin-activation.php:738
+#@ dp
+msgid "Dismiss this notice"
+msgstr "Ignorer cette notification"
+
+#: extensions/class-tgm-plugin-activation.php:1125
+#@ dp
+msgid "External Link"
+msgstr "Lien externe"
+
+#: extensions/class-tgm-plugin-activation.php:1130
+#@ dp
+msgid "Private Repository"
+msgstr "Dépôt privé"
+
+#: extensions/class-tgm-plugin-activation.php:1133
+#@ dp
+msgid "Pre-Packaged"
+msgstr "Pré-empaquetté"
+
+#: extensions/class-tgm-plugin-activation.php:1137
+#@ dp
+msgid "WordPress Repository"
+msgstr "Dépôt WordPress"
+
+#: extensions/class-tgm-plugin-activation.php:1140
+#@ dp
+msgid "Required"
+msgstr "Requis(es)"
+
+#: extensions/class-tgm-plugin-activation.php:1140
+#@ dp
+msgid "Recommended"
+msgstr "Recommandé(es)"
+
+#: extensions/class-tgm-plugin-activation.php:1143
+#@ dp
+msgid "Not Installed"
+msgstr "Non installée(es)"
+
+#: extensions/class-tgm-plugin-activation.php:1145
+#@ dp
+msgid "Installed But Not Activated"
+msgstr "Installé(es) mais non activé(es)"
+
+#: extensions/class-tgm-plugin-activation.php:1315
+#, php-format
+#@ dp
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "Aucune extension à installer ou à activer.  <a href=\"%1$s\" title=\"Retourner au tableau de bord\">Retourner au tableau de bord</a>"
+
+#: extensions/class-tgm-plugin-activation.php:1331
+#@ dp
+msgid "Plugin"
+msgstr "Extension"
+
+#: extensions/class-tgm-plugin-activation.php:1332
+#@ dp
+msgid "Source"
+msgstr "Source"
+
+#: extensions/class-tgm-plugin-activation.php:1333
+#@ dp
+msgid "Type"
+msgstr "Type"
+
+#: extensions/class-tgm-plugin-activation.php:1334
+#@ dp
+msgid "Status"
+msgstr "Statut"
+
+#: extensions/class-tgm-plugin-activation.php:1352
+#@ dp
+msgid "Install"
+msgstr "Installer"
+
+#: extensions/class-tgm-plugin-activation.php:1353
+#@ dp
+msgid "Activate"
+msgstr "Activer"
+
+#: extensions/class-tgm-plugin-activation.php:1578
+#@ dp
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "L'extension suivante a été activée avec succès:"
+msgstr[1] "Les extensions suivantes ont été activées avec succès:"
+
+#: extensions/class-tgm-plugin-activation.php:1863
+#@ dp
+msgid "Install package not available."
+msgstr "Le paquet d'installation n'est pas disponible."
+
+#: extensions/class-tgm-plugin-activation.php:1864
+#, php-format
+#@ dp
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloader le paquet d'installation à partir de <span class=\"code\">%s</span>&#8230;"
+
+#: extensions/class-tgm-plugin-activation.php:1865
+#@ dp
+msgid "Unpacking the package&#8230;"
+msgstr "Décompresser le paquet&#8230;"
+
+#: extensions/class-tgm-plugin-activation.php:1866
+#@ dp
+msgid "Installing the plugin&#8230;"
+msgstr "Installation de l'extension&#8230;"
+
+#: extensions/class-tgm-plugin-activation.php:1867
+#@ dp
+msgid "Plugin install failed."
+msgstr "L'installation de l'extension a échoué."
+
+#: extensions/class-tgm-plugin-activation.php:1868
+#@ dp
+msgid "Plugin installed successfully."
+msgstr "L'installation de l'extension a réussi."
+
+#: extensions/class-tgm-plugin-activation.php:1879
+#@ dp
+msgid "Plugin activation failed."
+msgstr "L'activation de l'extension a échoué."
+
+#: extensions/class-tgm-plugin-activation.php:1989
+#@ dp
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Le processus d'installation et d'activation a démarré. Ce processus peut prendre du temps sur certains serveurs, aussi, soyez patient."
+
+#: extensions/class-tgm-plugin-activation.php:1990
+#, php-format
+#@ dp
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installé et activé avec succès."
+
+#: extensions/class-tgm-plugin-activation.php:1990
+#: extensions/class-tgm-plugin-activation.php:1999
+#@ dp
+msgid "Show Details"
+msgstr "Montrer les détails"
+
+#: extensions/class-tgm-plugin-activation.php:1990
+#: extensions/class-tgm-plugin-activation.php:1999
+#@ dp
+msgid "Hide Details"
+msgstr "Cacher les détails"
+
+#: extensions/class-tgm-plugin-activation.php:1991
+#@ dp
+msgid "All installations and activations have been completed."
+msgstr "Toutes les installation et les activations ont été effectuées."
+
+#: extensions/class-tgm-plugin-activation.php:1992
+#, php-format
+#@ dp
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et activation de l'extension %1$s (%2$d/%3$d)"
+
+#: extensions/class-tgm-plugin-activation.php:1996
+#@ dp
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Le processus d'installation a démarré. Ce processus peut prendre du temps sur certains serveurs, aussi, soyez patient."
+
+#: extensions/class-tgm-plugin-activation.php:1997
+#, php-format
+#@ dp
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Une erreur est survenue pendant l'installation de %1$s: <strong>%2$s</strong>."
+
+#: extensions/class-tgm-plugin-activation.php:1998
+#, php-format
+#@ dp
+msgid "The installation of %1$s failed."
+msgstr "L'installation de %1$s a échoué."
+
+#: extensions/class-tgm-plugin-activation.php:1999
+#, php-format
+#@ dp
+msgid "%1$s installed successfully."
+msgstr "%1$s a été installé avec succès."
+
+#: extensions/class-tgm-plugin-activation.php:2000
+#@ dp
+msgid "All installations have been completed."
+msgstr "Toutes les installations ont été effectuées."
+
+#: extensions/class-tgm-plugin-activation.php:2001
+#, php-format
+#@ dp
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation de l'extension %1$s (%2$d/%3$d)"
+
+#: extensions/dp-post-likes.php:22
+#: extensions/dp-post-likes.php:80
+#: extensions/dp-post-likes.php:136
+#@ dp
+msgid "Like?"
+msgstr "Recommander?"
+
+#: extensions/dp-post-likes.php:23
+#: extensions/dp-post-likes.php:78
+#: extensions/dp-post-likes.php:128
+#@ dp
+msgid "You Like!"
+msgstr "Déjà recommandé!"
+
+#: extensions/dp-post-likes.php:24
+#@ dp
+msgid "You must login first!"
+msgstr "Vous devez d'abord vous connecter!"
+
+#: extensions/dp-post-likes.php:117
+#@ dp
+msgid "You must login first."
+msgstr "Vous devez d'abord vous connecter."
+
+#: extensions/dp-post-likes.php:180
+#@ dp
+msgid "Something error. please try again later!"
+msgstr "Il y a eu une erreur. Merci de réessayer plus tard!"
+
+#: extensions/dp-post-likes.php:375
+#@ dp
+msgid "Invaild post ID."
+msgstr "ID d'article invalide."
+
+#: extensions/dp-post-likes.php:384
+#@ dp
+msgid "You already liked."
+msgstr "Vous avez déjà recommandé."
+
+#: extensions/dp-post-likes.php:401
+#@ dp
+msgid "Could not insert post like into the database"
+msgstr "Impossible d'insérer la recommandation de l'article dans la base de données"
+
+#: extensions/dp-post-likes.php:474
+#: functions.php:1626
+#@ dp
+msgid "Likes"
+msgstr "Favoris"
+
+#: extensions/dp-post-likes.php:490
+#, php-format
+#@ dp
+msgid "%s likes"
+msgstr "%s recommandations"
+
+#: functions/helpers.php:273
+#, php-format
+#@ dp
+msgid "%s year"
+msgstr "%s an"
+
+#: functions/helpers.php:273
+#, php-format
+#@ dp
+msgid "%s years"
+msgstr "%s ans"
+
+#: functions/helpers.php:274
+#, php-format
+#@ dp
+msgid "%s month"
+msgstr "%s mois"
+
+#: functions/helpers.php:274
+#, php-format
+#@ dp
+msgid "%s months"
+msgstr "%s mois"
+
+#: functions/helpers.php:275
+#, php-format
+#@ dp
+msgid "%s week"
+msgstr "%s semaine"
+
+#: functions/helpers.php:275
+#, php-format
+#@ dp
+msgid "%s weeks"
+msgstr "%s semaines"
+
+#: functions/helpers.php:276
+#, php-format
+#@ dp
+msgid "%s day"
+msgstr "%s jour"
+
+#: functions/helpers.php:276
+#, php-format
+#@ dp
+msgid "%s days"
+msgstr "%s jours"
+
+#: functions/helpers.php:277
+#, php-format
+#@ dp
+msgid "%s hour"
+msgstr "%s heure"
+
+#: functions/helpers.php:277
+#, php-format
+#@ dp
+msgid "%s hours"
+msgstr "%s heures"
+
+#: functions/helpers.php:278
+#, php-format
+#@ dp
+msgid "%s min"
+msgstr "%s minute"
+
+#: functions/helpers.php:278
+#, php-format
+#@ dp
+msgid "%s mins"
+msgstr "%s minutes"
+
+#: functions/helpers.php:309
+#@ dp
+msgctxt "human_time_diff"
+msgid ", "
+msgstr ", "
+
+#: functions/plugins-compat.php:192
+#@ dp
+msgid "Install Required &amp; Recommended Plugins"
+msgstr "Installer les extensions requises &amp; recommandées"
+
+#: functions/plugins-compat.php:195
+#@ dp
+msgid "Something went wrong with the plugin API."
+msgstr "Quelque chose a mal fonctionné avecl'API des extensions."
+
+#: functions/plugins-compat.php:208
+#, php-format
+#@ dp
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Toutes les extensions installées et activées avec succès. %s"
+
+#: functions.php:56
+#@ dp
+msgid "Main Sidebar"
+msgstr "Barre latérale principale"
+
+#: functions.php:58
+#@ dp
+msgid "This is the most generic sidebar, If a page does not specify the sidebar, or specify the sidebar but the specified sidebar is empty, this sidebar will be used."
+msgstr "Ceci est la barre latérale la plus générique. Si une page ne spécifie pas de barre latérale, ou spécifie une barre latérale vide, c'est cette barre latérale qui sera utilisée."
+
+#: functions.php:66
+#@ dp
+msgid "Home Sidebar"
+msgstr "Barre latérale de la page d'Accueil"
+
+#: functions.php:68
+#@ dp
+msgid "This sidebar will displayed on homepage. If you leave this sidebar empty, the \"Main Sidebar\" will be used."
+msgstr "Cette barre latérale sera affichée sur la page d'accueil. La \"barre latérale principale\" sera utilisée dans le cas où  cette barre latérale est laissée vide."
+
+#: functions.php:76
+#@ dp
+msgid "Category Sidebar"
+msgstr "Barre latérale des pages de catégories"
+
+#: functions.php:78
+#@ dp
+msgid "This sidebar will displayed on category archive pages. If you leave this sidebar empty, the \"Main Sidebar\" will be used."
+msgstr "Cette barre latérale sera affichée sur les pages archives par catégorie. La \"barre latérale principale\" sera utilisée dans le cas où  cette barre latérale est laissée vide."
+
+#: functions.php:86
+#@ dp
+msgid "Single Post Sidebar"
+msgstr "Barre latérale des pages d'articles individuels"
+
+#: functions.php:88
+#@ dp
+msgid "This sidebar will displayed on single post pages. If you leave this sidebar empty, the \"Main Sidebar\" will be used."
+msgstr "Cette barre latérale sera affichée sur les pages d'articles individuels. La \"barre latérale principale\" sera utilisée dans le cas où  cette barre latérale est laissée vide."
+
+#: functions.php:96
+#@ dp
+msgid "Single Video Sidebar"
+msgstr "Barre latérale des pages de vidéos individuelles"
+
+#: functions.php:98
+#@ dp
+msgid "This sidebar will displayed on single video pages. If you leave this sidebar empty, the \"Main Sidebar\" will be used."
+msgstr "Cette barre latérale sera affichée sur les pages vidéos individuelles. La \"barre latérale principale\" sera utilisée dans le cas où  cette barre latérale est laissée vide."
+
+#: functions.php:106
+#@ dp
+msgid "Page Sidebar"
+msgstr "Barre latérale des pages"
+
+#: functions.php:108
+#@ dp
+msgid "This sidebar will displayed on all WordPress construct of pages. If you leave this sidebar empty, the \"Main Sidebar\" will be used."
+msgstr "Cette barre latérale sera affichée sur toutes les pages WordPress. La \"barre latérale principale\" sera utilisée dans le cas où  cette barre latérale est laissée vide."
+
+#: functions.php:116
+#@ dp
+msgid "Author Sidebar"
+msgstr "Barre latérale des pages d'auteurs"
+
+#: functions.php:118
+#@ dp
+msgid "This sidebar will displayed on author archive pages. If you leave this sidebar empty, the \"Main Sidebar\" will be used."
+msgstr "Cette barre latérale sera affichée sur les pages archives par auteur. La \"barre latérale principale\" sera utilisée dans le cas où  cette barre latérale est laissée vide."
+
+#: functions.php:127
+#@ dp
+msgid "Footbar"
+msgstr "Barre de pied de page"
+
+#: functions.php:129
+#@ dp
+msgid "An optional widget area for your site footer"
+msgstr "Une zone de widget optionnelle pour le pied de page du site"
+
+#: functions.php:139
+#@ dp
+msgid "BuddyPress Sidebar"
+msgstr "Barre latérale BuddyPress"
+
+#: functions.php:141
+#@ dp
+msgid "This sidebar will displayed on BuddyPress pages."
+msgstr "Cette barre latérale sera affichée sur les pages BuddyPress."
+
+#: functions.php:151
+#@ dp
+msgid "bbPress Sidebar"
+msgstr "Barre latérale bbPress"
+
+#: functions.php:153
+#@ dp
+msgid "This sidebar will displayed on bbPress pages."
+msgstr "Cette barre latérale sera affichée sur les pages bbPress."
+
+#: functions.php:261
+#@ dp
+msgid "Something\\'s error. Please try again later!"
+msgstr "Il y a une erreur. Merci de réessayer plus tard!"
+
+#: functions.php:375
+#: home-featured-full-width.php:43
+#: single-video-full-width.php:22
+#: single-video.php:23
+#: single.php:42
+#@ dp
+msgid "Share"
+msgstr "Partager"
+
+#: functions.php:562
+#@ dp
+msgid "Location"
+msgstr "Position"
+
+#: functions.php:783
+#, php-format
+#@ twentythirteen
+msgid "Page %s"
+msgstr "Page %s"
+
+#: functions.php:1032
+#@ dp
+msgid "More"
+msgstr "Plus"
+
+#: functions.php:1248
+#: functions.php:1253
+#@ dp
+msgid "Play"
+msgstr "Lancer la lecture"
+
+#: functions.php:1254
+#@ dp
+msgid "Pause"
+msgstr "Mettre en pause"
+
+#: functions.php:1265
+#@ dp
+msgid "Mute"
+msgstr "Désactiver le son"
+
+#: functions.php:1266
+#@ dp
+msgid "Unmute"
+msgstr "Activer le son"
+
+#: functions.php:1269
+#@ dp
+msgid "Full screen"
+msgstr "Plein écran"
+
+#: functions.php:1270
+#@ dp
+msgid "Exit full screen"
+msgstr "Quitter le mode plein écran"
+
+#: functions.php:1292
+#, php-format
+#@ dp
+msgid "%s <span class=\"suffix\">Views</span>"
+msgstr "%s <span class=\"suffix\">Vues</span>"
+
+#: functions.php:1293
+#, php-format
+#@ dp
+msgid "%s <span class=\"suffix\">Comments</span>"
+msgstr "%s <span class=\"suffix\">Commentaires</span>"
+
+#: functions.php:1294
+#, php-format
+#@ dp
+msgid "%s <span class=\"suffix\">Likes</span>"
+msgstr "%s <span class=\"suffix\">recommandations</span>"
+
+#: functions.php:1441
+#@ dp
+msgid "You may also like"
+msgstr "Vous aimerez aussi"
+
+#: functions.php:1474
+#@ dp
+msgid "Name"
+msgstr "Nom"
+
+#: functions.php:1476
+#@ dp
+msgid "Email"
+msgstr "Courriel"
+
+#: functions.php:1478
+#@ dp
+msgid "Website"
+msgstr "Site Web"
+
+#: functions.php:1482
+#, php-format
+#@ dp
+msgid "Required fields are marked %s"
+msgstr "Les champs requis sont marqué avec %s"
+
+#: functions.php:1485
+#@ dp
+msgctxt "noun"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: functions.php:1486
+#, php-format
+#@ default
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez être <a href=\"%s\">connecté(e)</a> pour écrire un commentaire."
+
+#: functions.php:1487
+#, php-format
+#@ dp
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Connecté(e) en tant que <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se déconnecter de ce compte\">Déconnexion ?</a>"
+
+#: functions.php:1488
+#@ dp
+msgid "Your email address will not be published."
+msgstr "Votre adresse courriel ne sera pas publiée."
+
+#: functions.php:1489
+#, php-format
+#@ dp
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Vous pouvez utiliser les balises et les attributs <abbr title=\"HyperText Markup Language\">HTML</abbr>: %s"
+
+#: functions.php:1492
+#@ dp
+msgid "Leave a Reply"
+msgstr "Laisser un commentaire"
+
+#: functions.php:1493
+#, php-format
+#@ dp
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: functions.php:1494
+#@ dp
+msgid "Cancel reply"
+msgstr "Annuler la réponse"
+
+#: functions.php:1495
+#@ dp
+msgid "Post Comment"
+msgstr "Commenter l'article"
+
+#: functions.php:1556
+#, php-format
+#@ dp
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: functions.php:1557
+#: home-featured.php:76
+#: item-video.php:36
+#: widgets/widget-comments.php:156
+#: widgets/widget-posts.php:70
+#: widgets/widget-related-posts.php:72
+#, php-format
+#@ dp
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: functions.php:1558
+#: single-video-full-width.php:54
+#: single-video.php:53
+#: single.php:64
+#@ dp
+msgid "Edit"
+msgstr "Modifier"
+
+#: functions.php:1563
+#@ dp
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:1590
+#@ dp
+msgid "Lost password?"
+msgstr "Mot de passe perdu ?"
+
+#: functions.php:1599
+#@ dp
+msgid "Day"
+msgstr "Jour"
+
+#: functions.php:1600
+#@ dp
+msgid "Week"
+msgstr "Semaine"
+
+#: functions.php:1601
+#@ dp
+msgid "Month"
+msgstr "Mois"
+
+#: functions.php:1602
+#@ dp
+msgid "Year"
+msgstr "Année"
+
+#: functions.php:1614
+#@ dp
+msgid "Date"
+msgstr "Date"
+
+#: functions.php:1615
+#@ dp
+msgid "Sort by Date"
+msgstr "Trier par date"
+
+#: functions.php:1619
+#@ dp
+msgid "Sort by Title"
+msgstr "Trier par titre"
+
+#: functions.php:1622
+#@ dp
+msgid "Views"
+msgstr "Vues"
+
+#: functions.php:1623
+#@ dp
+msgid "Sort by Views"
+msgstr "Trier par nombre de vues"
+
+#: functions.php:1627
+#@ dp
+msgid "Sort by Likes"
+msgstr "Tri par nombre de recommandations"
+
+#: functions.php:1630
+#@ dp
+msgid "Comments"
+msgstr "Commentaires"
+
+#: functions.php:1631
+#@ dp
+msgid "Sort by Comments"
+msgstr "Trier par nombre de commentaires"
+
+#: functions.php:1634
+#@ dp
+msgid "Random"
+msgstr "Aléatoire"
+
+#: functions.php:1635
+#@ dp
+msgid "Sort Randomly"
+msgstr "Trier aléatoirement"
+
+#: functions.php:1662
+#@ dp
+msgid "Grid View with Mini Thumbnail"
+msgstr "Grille de mini vignettes"
+
+#: functions.php:1663
+#@ dp
+msgid "Grid View with Small Thumbnail"
+msgstr "Grille de petites vignettes"
+
+#: functions.php:1664
+#@ dp
+msgid "Grid View with Medium Thumbnail"
+msgstr "Grille de vignettes moyennes"
+
+#: functions.php:1665
+#@ dp
+msgid "List View with Small Thumbnail"
+msgstr "Liste avec petites vignettes"
+
+#: functions.php:1666
+#@ dp
+msgid "List View with Medium Thumbnail"
+msgstr "Liste avec vignettes moyennes"
+
+#: functions.php:1667
+#@ dp
+msgid "List View with Large Thumbnail"
+msgstr "Liste avec grandes vignettes"
+
+#: header.php:117
+#@ dp
+msgid "Profile"
+msgstr "Profil"
+
+#: header.php:118
+#@ dp
+msgid "Account"
+msgstr "Compte"
+
+#: header.php:119
+#@ dp
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: header.php:125
+#@ dp
+msgid "Sign up"
+msgstr "S'enregistrer"
+
+#: header.php:128
+#@ dp
+msgid "Log In"
+msgstr "Se connecter"
+
+#: home-featured.php:52
+#: home-featured.php:73
+#: item-video.php:25
+#, php-format
+#@ dp
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: item-video.php:31
+#, php-format
+#@ dp
+msgid "View all posts by %s"
+msgstr "Voir tous les articles par %s"
+
+#: loop-actions.php:138
+#@ dp
+msgid "View:"
+msgstr "Vue:"
+
+#: loop-error.php:14
+#@ dp
+msgid "Apologies, but no results were found."
+msgstr "Désolé, aucun résultat n'a été trouvé."
+
+#: loop-header.php:23
+#, php-format
+#@ dp
+msgid "<span class=\"prefix\">Category:</span> %s"
+msgstr "<span class=\"prefix\">Catégorie:</span> %s"
+
+#: loop-header.php:25
+#, php-format
+#@ dp
+msgid "<span class=\"prefix\">Tag:</span> %s"
+msgstr "<span class=\"prefix\">mot-clef:</span> %s"
+
+#: loop-header.php:28
+#, php-format
+#@ dp
+msgid "<span class=\"prefix\">User:</span> %s"
+msgstr "<span class=\"prefix\">Utilisateur:</span> %s"
+
+#: loop-header.php:30
+#, php-format
+#@ dp
+msgid "<span class=\"prefix\">Search Results for:</span> %s"
+msgstr "<span class=\"prefix\">Résultats de la recherche de:</span> %s"
+
+#: loop-header.php:31
+#, php-format
+#@ dp
+msgid "About %s results"
+msgstr "%s résultats"
+
+#: loop-header.php:34
+#, php-format
+#@ dp
+msgid "<span class=\"prefix\">Daily Archives:</span> %s"
+msgstr "<span class=\"prefix\">Archives quotidiennes:</span> %s"
+
+#: loop-header.php:36
+#, php-format
+#@ dp
+msgid "<span class=\"prefix\">Monthly Archives:</span> %s"
+msgstr "<span class=\"prefix\">Archives mensuelles:</span> %s"
+
+#: loop-header.php:36
+#@ dp
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: loop-header.php:38
+#, php-format
+#@ dp
+msgid "<span class=\"prefix\">Yearly Archives:</span> %s"
+msgstr "<span class=\"prefix\">Archives annuelles:</span> %s"
+
+#: loop-header.php:38
+#@ dp
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: loop-header.php:40
+#@ dp
+msgid "Browse Archives"
+msgstr "Parcourir les archives"
+
+#: loop-nav.php:19
+#@ dp
+msgid "&laquo; Prev"
+msgstr "&laquo; Precédent"
+
+#: loop-nav.php:25
+#@ dp
+msgid "Next &raquo;"
+msgstr "Suivant &raquo;"
+
+#: page-template-archives.php:73
+#: page-template-full-width.php:24
+#: page-template-tag-cloud.php:27
+#: page.php:27
+#: single-video-full-width.php:59
+#: single-video.php:58
+#: single.php:82
+#@ dp
+msgid "Pages:"
+msgstr "Pages:"
+
+#: page-template-archives.php:88
+#@ dp
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: page-template-archives.php:89
+#@ dp
+msgid "Category Archives"
+msgstr "Archives par catégorie"
+
+#: page-template-archives.php:90
+#@ dp
+msgid "Monthly Archives"
+msgstr "Archives mensuelles"
+
+#: page-template-archives.php:91
+#@ dp
+msgid "Tag Archives"
+msgstr "Archives par mot-clef"
+
+#: page-template-archives.php:92
+#: widgets/widget-comments.php:81
+#: widgets/widget-comments.php:126
+#@ dp
+msgid "Recent Comments"
+msgstr "Commentaires récents"
+
+#: page-template-likes.php:33
+#, php-format
+#@ dp
+msgid "You must <a href=\"%1$s\">register</a> and <a href=\"%2$s\">login</a> to view your liked posts."
+msgstr "Vous devez être <a href=\"%1$s\">enregistré(e)</a> et <a href=\"%2$s\">connecté(e)</a> pour voir les articles que vous avez recommandés."
+
+#: searchform.php:15
+#@ dp
+msgid "Search..."
+msgstr "Rechercher..."
+
+#: searchform.php:16
+#@ dp
+msgid "Search"
+msgstr "Rechercher"
+
+#: single-video-full-width.php:45
+#@ dp
+msgid "Details"
+msgstr "Détails"
+
+#: single-video-full-width.php:51
+#: single-video.php:50
+#: single.php:61
+#: widgets/widget-posts.php:69
+#: widgets/widget-related-posts.php:71
+#@ dp
+msgid "Added by"
+msgstr "Ajouté par"
+
+#: single-video-full-width.php:52
+#: single-video.php:51
+#: single.php:62
+#@ dp
+msgid "on"
+msgstr "le"
+
+#: single-video-full-width.php:63
+#: single-video.php:62
+#: single.php:86
+#: widgets/widget-posts.php:191
+#@ dp
+msgid "Category:"
+msgstr "Catégorie:"
+
+#: single-video-full-width.php:64
+#: single-video.php:63
+#: single.php:87
+#@ dp
+msgid "Tags:"
+msgstr "Mots-clefs:"
+
+#: single-video-full-width.php:70
+#: single-video.php:69
+#@ dp
+msgid "Show more"
+msgstr "Plus"
+
+#: single-video-full-width.php:71
+#: single-video.php:70
+#@ dp
+msgid "Show less"
+msgstr "Moins"
+
+#: widgets/widget-ad.php:14
+#@ dp
+msgid "Displays the advertising."
+msgstr "Afficher les publicités."
+
+#: widgets/widget-ad.php:17
+#@ dp
+msgid "DP Advertising"
+msgstr "Publicités DP"
+
+#: widgets/widget-ad.php:71
+#: widgets/widget-comments.php:94
+#: widgets/widget-posts.php:160
+#: widgets/widget-related-posts.php:152
+#: widgets/widget-single-post-stats.php:47
+#: widgets/widget-tweets.php:195
+#: widgets/widget-user-bio.php:71
+#@ dp
+msgid "Title:"
+msgstr "Titre:"
+
+#: widgets/widget-ad.php:74
+#@ dp
+msgid "Image Ad"
+msgstr "Image publicitaire"
+
+#: widgets/widget-ad.php:76
+#@ dp
+msgid "Link URL:"
+msgstr "URL du lien:"
+
+#: widgets/widget-ad.php:80
+#@ dp
+msgid "Image URL:"
+msgstr "URL de l'image:"
+
+#: widgets/widget-ad.php:84
+#@ dp
+msgid "Alternate Text:"
+msgstr "Texte alternatif:"
+
+#: widgets/widget-ad.php:89
+#@ dp
+msgid "Open link in new window or tab?"
+msgstr "Ouvrir le lien dans une nouvelle fenêtre ou un nouvel onglet?"
+
+#: widgets/widget-ad.php:93
+#@ dp
+msgid "Add nofollow attribute to the link?"
+msgstr "Ajouter l'attribut nofollow au lien?"
+
+#: widgets/widget-ad.php:96
+#@ dp
+msgid "or Ad Code"
+msgstr "ou code publicitaire"
+
+#: widgets/widget-ad.php:98
+#@ dp
+msgid "Ad code:"
+msgstr "Code publicitaire:"
+
+#: widgets/widget-comments.php:16
+#@ dp
+msgid "Display the most recent comments."
+msgstr "Afficher les commentaires les plus récents."
+
+#: widgets/widget-comments.php:18
+#@ dp
+msgid "DP Recent Comments"
+msgstr "Commentaires DP récents"
+
+#: widgets/widget-comments.php:90
+#@ dp
+msgid "Comment"
+msgstr "Commentaire"
+
+#: widgets/widget-comments.php:90
+#@ dp
+msgid "Trackback"
+msgstr "Rétrolien"
+
+#: widgets/widget-comments.php:98
+#@ dp
+msgid "Comment Number:"
+msgstr "Commentaire numéro:"
+
+#: widgets/widget-comments.php:103
+#@ dp
+msgid "Show Avatar?"
+msgstr "Afficher l'Avatar?"
+
+#: widgets/widget-comments.php:107
+#@ dp
+msgid "Show Comment Date?"
+msgstr "Montrer la date du commentaire?"
+
+#: widgets/widget-comments.php:110
+#@ dp
+msgid "Comment Excerpt Length:"
+msgstr "Longueur de l'extrait du commentaire:"
+
+#: widgets/widget-posts.php:15
+#@ dp
+msgid "Display posts in various ways you'd like."
+msgstr "Afficher les articles de la manière que vous souhaitez."
+
+#: widgets/widget-posts.php:16
+#@ dp
+msgid "DP Posts Widget"
+msgstr "Widget des articles DP"
+
+#: widgets/widget-posts.php:43
+#: widgets/widget-posts.php:113
+#: widgets/widget-related-posts.php:46
+#@ dp
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: widgets/widget-posts.php:129
+#: widgets/widget-related-posts.php:123
+#@ dp
+msgid "List with Thumbnail"
+msgstr "Liste avec vignettes"
+
+#: widgets/widget-posts.php:130
+#: widgets/widget-related-posts.php:124
+#@ dp
+msgid "List with Full Width Thumbnail"
+msgstr "Liste avec vignettes en pleine largeur"
+
+#: widgets/widget-posts.php:131
+#: widgets/widget-related-posts.php:125
+#@ dp
+msgid "2 Columns Grid"
+msgstr "Grille à 2 colonnes"
+
+#: widgets/widget-posts.php:132
+#: widgets/widget-related-posts.php:126
+#@ dp
+msgid "3 Columns Grid"
+msgstr "Grille à 3 colonnes"
+
+#: widgets/widget-posts.php:165
+#: widgets/widget-related-posts.php:157
+#: widgets/widget-tweets.php:203
+#@ dp
+msgid "Number:"
+msgstr "Nombre:"
+
+#: widgets/widget-posts.php:170
+#@ dp
+msgid "Orderby:"
+msgstr "Trié par:"
+
+#: widgets/widget-posts.php:194
+#@ dp
+msgid "Limit posts by current category on category archive pages?"
+msgstr "Limiter les articles par catégorie sur les pages archives par catégorie?"
+
+#: widgets/widget-posts.php:196
+#@ dp
+msgid "Limit posts by current author on author archive pages?"
+msgstr "Limiter les articles par auteur sur les pages archives par auteur?"
+
+#: widgets/widget-posts.php:199
+#@ dp
+msgid "Includes:"
+msgstr "Articles inclus:"
+
+#: widgets/widget-posts.php:203
+#@ dp
+msgid "If you want to display specific posts, enter post ids to here, separate ids with commas, (e.g. 1,2,3,4). <br />if this field is not empty, category will be ignored. <br/>If you want to display posts sort by the order of your enter IDs, set \"Sort\" field as <strong>None</strong>."
+msgstr "Si vous voulez afficher des articles particuliers, saisissez ici leur identifiants, séparés par des virgules (par exemple 1,2,3,4). <br />Si ce champ n'est pas vide, la catégorie sera ignorée. <br/>Si vous voulez afficher des articles triés dans l'ordre de saisie des identifiants, mettre le champ \"Tri\" à <strong>Articles inclus</strong>."
+
+#: widgets/widget-posts.php:207
+#: widgets/widget-related-posts.php:162
+#@ dp
+msgid "Style:"
+msgstr "Style:"
+
+#: widgets/widget-related-posts.php:15
+#@ dp
+msgid "Display related posts on single post pages."
+msgstr "Afficher les articles en rapport sur les pages d'articles individuels."
+
+#: widgets/widget-related-posts.php:16
+#@ dp
+msgid "DP Related Posts Widget"
+msgstr "Widget d'articles DP en rapport"
+
+#: widgets/widget-single-post-stats.php:15
+#@ dp
+msgid "Display the stats of a post."
+msgstr "Affiche les statistiques d'un article."
+
+#: widgets/widget-single-post-stats.php:17
+#@ dp
+msgid "DP Single Post Stats"
+msgstr "Statistiques des articles DP individuels"
+
+#: widgets/widget-single-post-stats.php:42
+#@ dp
+msgid "Post Stats"
+msgstr "Statistiques d'article"
+
+#: widgets/widget-single-post-stats.php:49
+#@ dp
+msgid "This widget will only display on the single post page"
+msgstr "Ce Widget ne sera affiché que sur les page d'articles individuels"
+
+#: widgets/widget-tweets.php:28
+#@ dp
+msgid "Display your latest tweets."
+msgstr "Afficher vos derniers tweets."
+
+#: widgets/widget-tweets.php:29
+#@ dp
+msgid "DP Latest Tweets"
+msgstr "Derniers tweets DP"
+
+#: widgets/widget-tweets.php:140
+#, php-format
+#@ default
+msgid "Error: Please make sure the Twitter account is <a href=\"%s\">public</a>."
+msgstr "Erreur: Merci de vous assurer que le compte Twitter est <a href=\"%s\">public</a>."
+
+#: widgets/widget-tweets.php:142
+#@ default
+msgid "Error: Twitter did not respond. Please wait a few minutes and refresh this page."
+msgstr "Erreur: Twitter n'a pas répondu. Merci d'attendre quelques minutes et de rafraîchir cette page."
+
+#: widgets/widget-tweets.php:146
+#, php-format
+#@ dp
+msgid "Follow @%s"
+msgstr "Suivre @%s"
+
+#: widgets/widget-tweets.php:182
+#@ dp
+msgid "Twitter Updates"
+msgstr "Mises à jour Twitter"
+
+#: widgets/widget-tweets.php:199
+#@ dp
+msgid "Username:"
+msgstr "Nom d'utilisateur:"
+
+#: widgets/widget-tweets.php:212
+#@ dp
+msgid "Exclude replies?"
+msgstr "Exclure les réponses?"
+
+#: widgets/widget-tweets.php:216
+#@ dp
+msgid "Include retweets?"
+msgstr "Inclure les retweets?"
+
+#: widgets/widget-tweets.php:220
+#@ dp
+msgid "Add nofolow to link?"
+msgstr "Ajouter nofollow au lien?"
+
+#: widgets/widget-tweets.php:224
+#@ dp
+msgid "Open links in new window?"
+msgstr "Ouvrir ce lien dans une nouvelle fenêtre?"
+
+#: widgets/widget-tweets.php:228
+#@ dp
+msgid "Show Twitter follow button?"
+msgstr "Montrer le bouton de suivi de Twitter?"
+
+#: widgets/widget-user-bio.php:15
+#@ dp
+msgid "Display the \"Biographical Info\" of a user."
+msgstr "Afficher les \"Information biographiques\" d'un utilisateur."
+
+#: widgets/widget-user-bio.php:18
+#@ dp
+msgid "DP User Bio"
+msgstr "Biographie utilisateur DP"
+
+#: widgets/widget-user-bio.php:61
+#, php-format
+#@ dp
+msgid "About %s"
+msgstr "A propos de %s"
+
+#: widgets/widget-user-bio.php:73
+#, php-format
+#@ dp
+msgid "'%s' in string will be replaced with user's name."
+msgstr "'%s' dans la chaîne sera remplacé par le nom de l'utilisateur."
+
+#: widgets/widget-user-bio.php:75
+#@ dp
+msgid "User ID:"
+msgstr "ID utilisateur:"
+
+#: widgets/widget-user-bio.php:77
+#@ dp
+msgid "When viewing an author archive page, default user ID is the ID of current user. Set this field only if you want to show a specific user. <br /><strong>Note:</strong> By default, this widget is only displayed on the author archive page, if you set User ID, it will displayed on all pages."
+msgstr "Lors de l'affichage d'une page d'archive par auteur, l'ID de l'utilisateur par défaut est l'ID de l'utilisateur courant. Ne modifier ce champ que si vous voulez afficher un utilisateur particulier. <br /><strong>Note:</strong> Par défaut, ce widget n'est affiché que sur les pages archives par auteur. Si vous configurez un ID d'utilisateur, il sera affiché sur toutes les pages."
+
+#: widgets/widget-user-bio.php:79
+#@ dp
+msgid "Bio Length:"
+msgstr "Longueur de la biographie:"
+
+#: widgets/widget-user-bio.php:81
+#@ dp
+msgid "Enter a length number if you want to limit bio length, e.g. 300."
+msgstr "Entrer un nombre de caractères si vous voulez limiter la taille de la biographie, par exemple 300."
+
+#: widgets/widget-user-bio.php:83
+#@ dp
+msgid "Strip HTML Tags?"
+msgstr "Filtrer les balises HTML?"
+
